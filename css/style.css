@@ -162,7 +162,10 @@ a {
 .bg-skile {
     background-color: var(--main-color);
 }
-
+.bg-skile:hover{
+    color: #1c1c1c !important;
+    background-color: #fff !important;
+}
 .about-img {
     padding: 0 0 0 30px;
 }
@@ -184,10 +187,10 @@ a {
 
 }
 
-.contan a:hover {
-    /* --bs-link-color-rgb: var(--bs-link-hover-color-rgb); */
-    --bs-link-hover-color-rgb: #fff:
-}
+/* .contan a:hover {
+    --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+    --bs-link-hover-color-rgb: #fff;
+} */
 
 /* ***Teams*** */
 .padd {
@@ -476,7 +479,10 @@ ul {
 .bg-section {
     background-color: var(--bg-section);
 }
-
+.bg-hover:hover{
+    background-color: var(--main-color) !important;
+    color: #eee !important;
+}
 .form-control:focus {
     background-color: var(--bg-section);
     border-color: #1c1c1c;
